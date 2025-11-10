@@ -132,6 +132,9 @@ public class SalesItem
      */
     public Comment findMostHelpfulComment()
     {
+        if(comments.isEmpty()){
+            return null;
+        }
         Iterator<Comment> it = comments.iterator();
         Comment best = it.next();
         while(it.hasNext()) {

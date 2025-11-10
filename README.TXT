@@ -12,3 +12,7 @@ The current project is concerned only with customer comments for sales items. It
 code to create, store, show and manipulate customer comments.
 
 NOTE: There are several serious errors to be found in these classes.
+
+
+5.  If you enter either 0 or 6 since those numbers are outside the accepted value, then it returns false... therefore it means it wokrs orrectly.
+9.  The code returns an error once you try to find the most helpful comment since none are added.
